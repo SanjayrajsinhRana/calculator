@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.main
+		{
+			border: 3px solid;
+			position: absolute;
+			top: 33.5%;
+			left: 33.5%;
+			padding: 19px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<input type="text" name="num1" placeholder="enter number" id="num11">
+	<br>
+	
+	<input type="button" name="+" value="+"  onclick="num11.value += '+'">
+	<input type="button" name="*" value="*"  onclick="num11.value += '*'">
+	<input type="button" name="-" value="-"  onclick="num11.value += '-'">
+	<input type="button" name="-" value="-"  onclick="num11.value += '/'">
+	<input type="button" name="" value="=" onclick="num11.value = eval(num11.value)">
+	<input type="button" name="" value="clear" onclick="num11.value ='' ">
+	<br>
+	<br>
+	<button onclick="num11.value += '1'">1</button>
+	<button onclick="num11.value += '2'">2</button>
+	<button onclick="num11.value += '3'">3</button><br>
+	<button onclick="num11.value += '4'">4</button>
+	<button onclick="num11.value += '5'">5</button>
+	<button onclick="num11.value += '6'">6</button><br>
+	<button onclick="num11.value += '7'">7</button>
+	<button onclick="num11.value += '8'">8</button>
+	<button onclick="num11.value += '9'">9</button>
+</div>
+</body>
+</html>
